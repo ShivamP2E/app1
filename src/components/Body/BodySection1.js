@@ -1,6 +1,5 @@
 import './BodySection1.css';
 
-// Main home page section-1
 const BodySection1 = () => {
     return (
         <>
