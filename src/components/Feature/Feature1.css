@@ -1,0 +1,55 @@
+.row-wrap h1{
+    text-align: center!important;
+}
+.row-wrap p{
+    text-align: center!important;
+}
+.row-wrap{
+    padding-bottom: 50px;
+}
+.phone-img{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.box1-wrapper{
+    padding-top: 40px;
+}
+.feature-box{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+}
+.feature1-box{
+    display: flex;
+    padding-bottom: 50px;
+}
+.box2-wrapper{
+    padding-top: 40px;
+}
+.f-img img{
+    width: 70px;
+}
+.f-img{
+    margin-left: 20px;
+}
+.f-cont h4{
+    text-align: end !important;
+}
+.f-cont p{
+    text-align: end !important; 
+    color: #6c757D;
+}
+.f-cont1 h4,p{
+    text-align: start !important;
+}
+.f-cont1 p{
+    color: #6c757D;
+}
+
+.f-img1 img{
+    width: 70px;
+}
+.f-img1{
+    margin-right: 20px;
+}

@@ -1,0 +1,7 @@
+.resp-wrap{
+    display: flex;
+    align-items: first baseline;
+}
+.resp-image img{
+    width: 70px;
+}
