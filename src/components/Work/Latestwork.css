@@ -1,0 +1,33 @@
+
+.Latest-heading {
+    display:flex;
+    justify-content: center;
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.latest-images {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.latest-images img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover !important;
+    /* overflow: hidden; */
+}
+
+.latest-footer{
+    display:flex;
+    justify-content: center;
+    background: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.latest-footer:hover{
+    background: #1abc9c;
+}

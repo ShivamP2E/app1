@@ -1,0 +1,12 @@
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 80px !important;
+}
+.card{
+    border: 1px solid transparent !important;
+}
+.card-body{
+    padding: 12px 0px 0px 4px  !important;
+}
