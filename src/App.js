@@ -14,8 +14,8 @@ import Blogcard1 from './components/Blog/Blogcard1';
 function App() {
   return (
     <>
-    <NavbarComp/>
-        <div className='section-1'>
+      <div className='section-1'>
+        <NavbarComp/>
         <BodySection1/>
         </div>
         <div className="section-2">

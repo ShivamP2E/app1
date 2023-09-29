@@ -1,9 +1,9 @@
-.FooterWrapper{
-    display: flex;
-    justify-content: space-evenly;
-    color:white;
-    background-color: #343a40;
-    padding: 50px 0px 30px 0px;
+ul{
+    padding: 0!important
+}
+.col1wrapper{
+    padding-left: 80px;
+    padding-top: 80px;
 }
 .col1wrapper ul li {
     list-style: none;
@@ -11,6 +11,9 @@
 }
 .col1wrapper img{
     padding: 10px;
+}
+.col2wrapper{
+    padding-top: 80px;
 }
 .col2wrapper ul li {
     list-style: none;
@@ -22,12 +25,19 @@
 .col3Wrapper ul li {
     list-style: none;
     padding: 10px;
+    /* color: ; */
 }
 .col3Wrapper p{
     color: #b3b3b3;
 }
 .col3Wrapper h3{
     margin-left: 9px;
+}
+.col3Wrapper{
+  padding-top: 80px;
+}
+.col4wrapper{
+    padding-top: 80px;
 }
 .widgets{
     display: flex;
@@ -51,43 +61,22 @@
 .facebook {
     display: flex;
 }
+.facebook-data p{
+    margin-bottom: 0 !important;
+}
 .facebook-data{
-    margin-left: 10px;
+    margin: 0 !important;
 }
 .Rss{
     display:flex ;
 }
 .Rss-data{
-    margin-left: 10px;
     text-align: center;
 }
-.subscribe-button{
+.Rss-data p{
+    margin-bottom: 0 !important;
+}
+
+.socialwrap1{
     display: flex;
-    align-items: center;
 }
-
-.mail-icon img{
-    width: 20px;
-    border: 1px solid #b3b3b3;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 25px;
-    margin-top: 4px;
-}
-.inputbox input{
- background:transparent;
- border: 1px solid #b3b3b3;
- padding-bottom:30px ;
- padding-top: 5px;
- padding-right: 60px;
-}
-.Sub-button{
-    border: 1px solid green;
-    background-color: green;
-    padding:15px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px ;
-    text-align: center;
-
-}
-

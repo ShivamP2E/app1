@@ -1,5 +1,5 @@
 .walkthrough-img img{
-    width: 929px;
+    width: 100%;
     height: 750px;
     object-fit: cover;
 }
@@ -21,7 +21,7 @@
 }
 .walk-para2 p{
     font-weight: 300 !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     padding: 20px;
 }
 .feat-logo{
@@ -31,21 +31,27 @@
     display: flex;
     color: white;
     text-align: center;
+    padding: 0  !important;
 
 }
 .numb-wrap1{
     background: #515875 ;
     padding: 60px;
+    height: 100%;
 }
 .numb-wrap2{
     background: #576e9e;
     padding: 60px;
+    height: 100%;
 }
 .numb-wrap3{
     background: #6697b9;
     padding: 60px;
+    height: 100%;
 }
+
 .numb-wrap4{
     background: #88c3d8;
     padding: 60px;
+    height: 100%;
 }

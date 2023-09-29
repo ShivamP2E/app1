@@ -1,4 +1,34 @@
-.navbar{
+.logo-image img{
+    width: 60%;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+.navbar-icons a{
+    padding: 15px;
+}
+.form-control{
+    background-color: #252729 !important;
+}
+
+.btn ,.btn-outline-secondary{
+    background-color: #198754!important;
+    color: white !important;
+}
+
+
+
+
+
+/* .navbar{
     position: fixed;
     width: 100%;
 }
@@ -35,4 +65,4 @@
 }
 .Nav-imagewrapper {
     margin-right: 20px;
-}
+} */

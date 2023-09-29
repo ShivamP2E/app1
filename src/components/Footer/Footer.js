@@ -1,10 +1,16 @@
 import "./Footer.css";
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 const FooterComp = () => {
 return (
-   <div className="FooterWrapper">
-    <div className="col1wrapper">
-      <img src="https://canvastemplate.com/images/footer-widget-logo.png" />
+   <div>
+    <div className="row bg-dark text-white " >
+      {/* column one */}
+       <div className="col-3 p-10">
+        <div className="col1wrapper">
+      <img src="https://canvastemplate.com/images/footer-widget-logo.png" alt="p1" />
       <ul>
         <li>
           We believe in Simple, Creative & <br />
@@ -24,6 +30,9 @@ return (
         </li>
       </ul>
     </div>
+       </div>
+    {/* Column 2 */}
+    <div className="col-2">
     <div className="col2wrapper">
       <h3>BLOGROLL</h3>
       <ul>
@@ -36,90 +45,97 @@ return (
         <li>Canvas Planet</li>
       </ul>
     </div>
+        </div>
+    {/* Column 3 */}
+    <div className="col-3">
     <div className="col3Wrapper">
       <h3>RECENT POSTS</h3>
       <ul>
         <li>
-          <h4>
+          <h5>
             Lorem ipsum dolor sit amet,
             <br /> consectetur
-          </h4>
-        </li>
-        <li>
-          {" "}
-          <p>10th July 2021</p>{" "}
-        </li>
-        <li>
-          <h4>
-            Lorem ipsum dolor sit amet,
-            <br /> consectetur
-          </h4>
-        </li>
-        <li>
+          </h5>
           <p>10th July 2021</p>
         </li>
         <li>
-          <h4>
+          <h5>
             Lorem ipsum dolor sit amet,
             <br /> consectetur
-          </h4>
+          </h5>
+          <p>10th July 2021</p>
         </li>
         <li>
+          <h5>
+            Lorem ipsum dolor sit amet,
+            <br /> consectetur
+          </h5>
           <p>10th July 2021</p>
         </li>
       </ul>
-    </div>
-    <div className="col4wrapper">
-    <div className="widgets">
-        <div className="widget-1">
-          <h1>15,065,421</h1>
-          <h5>TOTAL DOWNLOAD</h5>
+      </div>
+      </div>
+    {/* column 4 */}
+      <div className="col-4">
+        <div className="col4wrapper">
+        <div className="row">
+        <div className="col-6">
+          <h2>15,065,421</h2>
+          <p>TOTAL DOWNLOAD</p>
         </div>
-        <div className="widget-1">
-          <h1>18,465</h1>
-          <h5>CLIENTS</h5>
+        <div className="col-6">
+          <h2>18,465</h2>
+          <hp>CLIENTS</hp>
         </div>
-    </div>
-    <div className="subscribewrapper">
+       </div>
+    <div className="row">
+       <div className="subscribewrapper">
         <p>
-          Subscribe to Our Newsletter to get Important News, Amazing Offers{" "}
-          <br></br> & Inside Scoops:
+          Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:
         </p>
-    </div>
-    <div className="subscribe-button">
-        <div className="mail-icon">
-            <img src="https://cdn-icons-png.flaticon.com/128/646/646094.png" />
-        </div>
-        <div className="inputbox">
-            <input type="text"  ></input>
-        </div>
-        <div className="Sub-button">
-            <p>Subscribe</p>
         </div>
     </div>
-    <div className="Socialmedia">
-        <div className="facebook">
+    <div className="row">
+    <InputGroup className="mb-3">
+        <Form.Control
+          placeholder="E-mail address"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <Button variant="outline-secondary" id="button-addon2">
+          Subscribe
+        </Button>
+      </InputGroup>
+    </div>
+    <div className="row">
+       
+        <div className="col-6">
+        <div className="socialwrap1">
         <div className="facebook-icon">
-         <img src="https://img.icons8.com/?size=48&id=yGcWL8copNNQ&format=png"/>
+         <img src="https://img.icons8.com/?size=48&id=yGcWL8copNNQ&format=png" alt="p1"/>
         </div>
         <div className="facebook-data">
-            <h3>Like Us</h3>
-             <p>on Facebook</p>
+            <p>Like Us</p>
+            <p>on Facebook</p>
         </div>
         </div>
-        <div className="Rss">
+        </div>
+        <div className="col-6">
+        <div className="socialwrap1">
         <div className="Rss-icon">
-        <img src="https://img.icons8.com/?size=48&id=13841&format=png" />
+        <img src="https://img.icons8.com/?size=48&id=13841&format=png" alt="p1"/>
         </div>
         <div className="Rss-data">
-            <h3>Subscribe</h3>
-                <p>on RSS feed</p>
+            <p>Subscribe</p>
+            <p>to RSS feed</p>
         </div>
         </div>
-        
+        </div>
+     </div>
+     </div>
+     </div>
     </div>
-    </div>
-</div>
+  </div>
 );
 };
 export default FooterComp;
