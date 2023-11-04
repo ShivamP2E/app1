@@ -1,0 +1,20 @@
+.optimized-wrapper{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.opt-image {
+    display: flex;
+    justify-content: center;
+}
+.content-heading h2{
+    margin-bottom: 50px;
+}
+.optimize-cont{
+    padding: 30px;
+}
+.btn{
+    padding: 10px 50px 10px 50px  !important;
+}
+.Opt-button{
+    padding-top: 35px;
+}

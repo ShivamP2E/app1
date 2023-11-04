@@ -1,0 +1,13 @@
+.Card-wrap{
+    display: flex;
+    justify-content: center;
+    background: #fafafa;
+    /* padding-bottom: 40px; */
+    padding: 60px !important;
+    gap: 30px;
+}
+.Card-Content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}

@@ -4,7 +4,7 @@ const Feature2 = () =>{
     return (
         <>
         <div className='row'>
-            <div className='col-6'>
+            <div className='col-6 p-0'>
                 <div className='walkthrough-img'>
                     <img src='https://canvastemplate.com/images/services/main-bg.jpg' alt='ph'/>
                 </div>
@@ -22,7 +22,7 @@ const Feature2 = () =>{
                 </div>
             </div>
         </div>
-        <div className='row'>
+        <div className='row '>
             <div className='Number-wraper'>
             <div className='col-3'>
                 <div className='numb-wrap1'>

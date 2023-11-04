@@ -1,0 +1,13 @@
+.blog-header{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.card-head{
+    display: flex;
+    justify-content: center;
+    background: #f8f9fa;
+    padding-top: 70px;
+}

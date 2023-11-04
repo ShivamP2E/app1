@@ -40,7 +40,10 @@
     text-align: end !important; 
     color: #6c757D;
 }
-.f-cont1 h4,p{
+.f-cont1 h4{
+    text-align: start !important;
+}
+.f-cont1 p{
     text-align: start !important;
 }
 .f-cont1 p{

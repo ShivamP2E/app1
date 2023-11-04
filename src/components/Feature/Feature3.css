@@ -1,7 +1,12 @@
 .resp-wrap{
     display: flex;
-    align-items: first baseline;
+    align-items:baseline;
+    padding: 14px;
 }
 .resp-image img{
-    width: 70px;
+    width: 50px;
+}
+.Resp-wrap-01{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
