@@ -10,7 +10,7 @@ return (
       {/* column one */}
        <div className="col-3 p-10">
         <div className="col1wrapper">
-      <img src="https://canvastemplate.com/images/footer-widget-logo.png" alt="p1" />
+      <img src="https://canvastemplate.com/images/footer-widget-logo.png" alt="" />
       <ul>
         <li>
           We believe in Simple, Creative & <br />
@@ -112,7 +112,7 @@ return (
         <div className="col-6">
         <div className="socialwrap1">
         <div className="facebook-icon">
-         <img src="https://img.icons8.com/?size=48&id=yGcWL8copNNQ&format=png" alt="p1"/>
+         <img src="https://img.icons8.com/?size=48&id=yGcWL8copNNQ&format=png" alt=""/>
         </div>
         <div className="facebook-data">
             <p>Like Us</p>
@@ -123,7 +123,7 @@ return (
         <div className="col-6">
         <div className="socialwrap1">
         <div className="Rss-icon">
-        <img src="https://img.icons8.com/?size=48&id=13841&format=png" alt="p1"/>
+        <img src="https://img.icons8.com/?size=48&id=13841&format=png" alt=""/>
         </div>
         <div className="Rss-data">
             <p>Subscribe</p>
